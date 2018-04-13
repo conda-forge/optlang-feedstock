@@ -1,6 +1,6 @@
 {% set name = "optlang" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "7d760a5c6f488e6f8db6b729bdcef6697e26e1d65f942dfa0213c2d5228ac744" %}
+{% set version = "1.4.1" %}
+{% set sha256 = "de4d98e3b31d7e4d8f7ef7325a663f74e56124c037142c4d616c59d583662dfb" %}
 
 package:
   name: {{ name|lower }}
