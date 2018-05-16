@@ -19,12 +19,15 @@ so different solver backends can be changed in a transparent way.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/optlang-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/optlang-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/optlang-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/optlang-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optlang/badges/version.svg)](https://anaconda.org/conda-forge/optlang)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optlang/badges/downloads.svg)](https://anaconda.org/conda-forge/optlang)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-optlang-green.svg)](https://anaconda.org/conda-forge/optlang) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/optlang.svg)](https://anaconda.org/conda-forge/optlang) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/optlang.svg)](https://anaconda.org/conda-forge/optlang) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/optlang.svg)](https://anaconda.org/conda-forge/optlang) |
 
 Installing optlang
 ==================
