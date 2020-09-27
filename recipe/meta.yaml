@@ -1,6 +1,6 @@
 {% set name = "optlang" %}
-{% set version = "1.4.4" %}
-{% set sha256 = "3cff64dae1ebe8eaef6291c2d1b4f459d58f97ee73b4757e7584d764eb4a0031" %}
+{% set version = "1.4.6" %}
+{% set sha256 = "b97a7193357d9b7da044868cfb014dd49a3782f620920be5007fdadf4d8c56c5" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -38,7 +38,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'optlang - sympy based mathematical programming language'
+  summary: optlang - sympy based mathematical programming language
 
   description: |
     Optlang is a Python package for solving mathematical optimization 
