@@ -5,9 +5,13 @@ Home: https://github.com/biosustain/optlang
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/optlang-feedstock/blob/master/LICENSE.txt)
 
 Summary: optlang - sympy based mathematical programming language
+
+Development: https://github.com/biosustain/optlang
+
+Documentation: http://optlang.readthedocs.io/
 
 Optlang is a Python package for solving mathematical optimization
 problems, i.e. maximizing or minimizing an objective function over
