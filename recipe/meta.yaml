@@ -1,6 +1,6 @@
 {% set name = "optlang" %}
-{% set version = "1.4.7" %}
-{% set sha256 = "0c9d7aae9babd5f9eac296b6f975a0e475545ac7ced9790f43796671157eb017" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "6e1cf89fcbfc7e3d15c4492045f6f71e4c92c08f0cf693ec02d4fe9072835925" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
