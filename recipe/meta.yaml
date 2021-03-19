@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=2.7
     - pip
 
   run:
-    - python
+    - python >=2.7
     - sympy >=1.0.0
     - six >=1.9.0
     - swiglpk >=4.65.1
@@ -42,11 +42,11 @@ about:
   summary: optlang - sympy based mathematical programming language
 
   description: |
-    Optlang is a Python package for solving mathematical optimization 
-    problems, i.e. maximizing or minimizing an objective function over 
-    a set of variables subject to a number of constraints. 
-    Optlang provides a common interface to a series of optimization tools, 
-    so different solver backends can be changed in a transparent way.
+    Optlang is a Python package for solving mathematical optimization problems,
+    i.e. maximizing or minimizing an objective function over a set of variables
+    subject to a number of constraints.  Optlang provides a common interface to
+    a series of optimization tools, so different solver backends can be changed
+    in a transparent way.
   doc_url: http://optlang.readthedocs.io/
   dev_url: https://github.com/biosustain/optlang
 
