@@ -13,11 +13,11 @@ Development: https://github.com/biosustain/optlang
 
 Documentation: http://optlang.readthedocs.io/
 
-Optlang is a Python package for solving mathematical optimization
-problems, i.e. maximizing or minimizing an objective function over
-a set of variables subject to a number of constraints.
-Optlang provides a common interface to a series of optimization tools,
-so different solver backends can be changed in a transparent way.
+Optlang is a Python package for solving mathematical optimization problems,
+i.e. maximizing or minimizing an objective function over a set of variables
+subject to a number of constraints.  Optlang provides a common interface to
+a series of optimization tools, so different solver backends can be changed
+in a transparent way.
 
 
 Current build status
