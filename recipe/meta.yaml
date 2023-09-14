@@ -13,19 +13,19 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.8
     - pip
 
   run:
-    - python >=2.7
-    - sympy >=1.0.0
-    - six >=1.9.0
-    - swiglpk >=4.65.1
+    - python >=3.8
+    - sympy >=1.12
+    - six >=1.9
+    - swiglpk >=5.0
     - symengine >=0.6.0
 
 test:
