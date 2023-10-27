@@ -1,6 +1,6 @@
 {% set name = "optlang" %}
-{% set version = "1.7.0" %}
-{% set sha256 = "04e4b5e838a6063eb03ae2f2ae82b7aed10e1031aea0a07017dc75ad81c7d243" %}
+{% set version = "1.8.0" %}
+{% set sha256 = "3eac44cad54af5bf26d66ca7997bfe919b7ea3564404a546e4fb9a848dc80195" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
