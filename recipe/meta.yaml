@@ -1,6 +1,6 @@
 {% set name = "optlang" %}
-{% set version = "1.8.2" %}
-{% set sha256 = "52215bd75c265299f450bb904a890a91992446fff668d8f8e98968afbcb591c9" %}
+{% set version = "1.8.3" %}
+{% set sha256 = "546a1c375b93734c636125fc1867aadb7e38ec276918960a9082eb12fb2cec5d" %}
 
 package:
   name: {{ name|lower }}
@@ -20,12 +20,13 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
 
   run:
     - python >={{ python_min }}
     - sympy >=1.12
     - six >=1.9
-    - swiglpk >=5.0
+    - swiglpk >=5.0.12
     - symengine >=0.6.0
 
 test:
@@ -57,3 +58,4 @@ extra:
     - druvus
     - Midnighter
     - phantomas1234
+    - cdiener
